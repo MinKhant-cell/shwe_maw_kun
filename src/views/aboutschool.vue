@@ -420,16 +420,44 @@ Mathletics က mental mathematical skills ကို တိုးတက်စေ�
 
           
             <section id="examcenter" tabindex="0"  class="" style="width:100%; height:100%;  padding:10px; ;"  >
-              <div class="shadow m-5"> 
+              <div class="shadow m-5 p-4">
                 <h2 class="m-3"> <b>INTERNATIONAL OLYMPIAD EXAM</b> </h2>
-              <img style="width:100%; height:100%; object-fit: contain;" src="./../assets/img/ourpartner.png" alt="">
+                <div class="row mb-5">
+                  <div class="col-4">
+                    <img src="../assets/img/timo.jpg" style="width: 300px;" alt="">
+
+                  </div>
+                  <div class="col-4">
+                    <img src="../assets/img/south_asia_math.jpg" style="width: 300px;" alt="">
+
+                  </div>
+                  <div class="col-4">
+                    <img src="../assets/img/hk_math.jpg" style="width: 300px;" alt="">
+
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <img src="../assets/img/hippo2022.jpg" style="width: 300px;" alt="">
+
+                  </div>
+                  <div class="col-4">
+                    <img src="../assets/img/hk_science.jpg" style="width: 200px;" alt="">
+
+                  </div>
+                  <div class="col-4">
+                    <img src="../assets/img/hk_international_computer.jpg" style="width: 300px;" alt="">
+
+                  </div>
+                </div>
+<!--              <img style="width:100%; height:100%; object-fit: contain;" src="./../assets/img/ourpartner.png" alt="">-->
 
                 </div>
            
            
             </section>
               <section id="parter"  class="" style="width:100%; height:100%;  padding:10px; " >
-                <div class="shadow m-5"> 
+                <div class="shadow m-5 p-4">
                   <h2 class="m-3"> <b>OUR ACCREDITATIONS</b> </h2>
              <img style="width:100%; height:300px;object-fit: contain;" src="./../assets/img/ourpartner2.png" alt="">
 
