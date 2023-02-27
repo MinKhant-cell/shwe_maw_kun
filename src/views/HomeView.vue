@@ -162,8 +162,9 @@
           </div>
           <div class="col" style="min-width:450px;max-width: 100%;background:purple ">
             <div >
-          <p class="t_shadow p-3 " style="text-align:justify;  word-wrap: break-word;">ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းက ပုံမှန်ကျောင်းသင်ရိုးကို ဂရုစိုက်သင်ကြားပေးရုံသာမက သင်ကြားရာတွင် Digital ကိရိယာများကို ထိရောက်စွာအသုံးပြုခြင်းဖြင့် ကျောင်းသားများ ငယ်စဉ်ကတည်းက Technology ပစ္စည်းများကို သေချာစွာအသုံးပြုတတ်အောင် လေ့ကျင့်သင်ကြားပေးလျက်ရှိပါတယ်။ 
-</p>
+              <p class="t_shadow p-3 " style="text-align:justify;  word-wrap: break-word;">
+                သင်ကြားရေးနှင့် ပတ်သက်ပြီး ပြည်ထောင်စု မြန်မာနိုင်ငံတော် လူမှုဝန်ထမ်းဦးစီးဌာနမှ ပြဌာန်းထားသော ECCD သင်ရိုးညွှန်းတမ်းနှင့် နိုင်ငံတကာ သင်ရိုးညွှန်းတမ်း စာအုပ်များကို ရွေးချယ် အသုံးပြုပါသည်။ ကလေးများ၏ ဘဝတွင် မရှိမဖြစ် လိုအပ်သည့် Life Skills ၊ Mindfulness ၊ Montessori ၊ STEAM Education ၊ Character Education ၊ ၃၈ ဖြာ မင်္ဂလာကဗျာများ၊ ပုံပြင်များအပြင် Digital learning Platform များကိုလည်း အသုံးပြု၍ သင်ကြားပေးနေပါသည်။
+              </p>
         </div>
       
         </div>
@@ -189,13 +190,9 @@
           </div>
           <div class="col" style="min-width:450px;max-width: 100%;background:purple ">
             <div >
-       
               <p class="t_shadow p-3 " style="text-align:justify;">
-
-ပြင်ပသင်ရိုးများအနေဖြင့်  Global Citizenship ကိုပါ ထည့်သွင်းသင်ကြားပေးခြင်းကြောင့် ကလေးတိုရဲ့ အသိပညာ၊ ကျွမ်းကျင်မှု၊ သဘောထားများနှင့် လူ့အခွင့်အရေး၊ ငြိမ်းချမ်းရေးတန်ဖိုးများကို ဖွံဖြိုးတိုးတက်စေနိုင်ပါတယ်ရှင်။  
-.
-</p>
-
+                ရွှေမော်ကွန်း ကိုယ်ပိုင်မူလတန်းကျောင်းရှိ ကျောင်းသား/သူများ ငယ်ရွယ်စဉ်အချိန်တွင် Japanese ၊ Chinese အစရှိသည့် နိုင်ငံခြားဘာသာစကားတစ်ခုခုကို ထပ်ဆောင်းအနေဖြင့် ရွေးချယ်သင်ကြားခြင်းဖြင့် ဘာသာစကားအခြေခံကောင်းများ ငယ်စဉ်အရွယ်မှာ လျင်မြန်စွာရရှိမည့်အပြင် နိုင်ငံတကာ၏ယဉ်ကျေးမှုနှင့် Knowledge is Power ဆိုသည့်အတိုင်း ပြင်ပဗဟုသုတများ တိုးပွားလာစေသည့် အကျိုးကျေးဇူးများရရှိမည် ဖြစ်ပါသည်။
+              </p>
         </div>
       
         </div>
@@ -241,8 +238,9 @@
           <div class="col" style="min-width:450px;max-width: 100%;background:purple ">
             <div >
               <p class="t_shadow p-3 " style="text-align:justify">
-            ထိုအပြင်ငယ်ရွယ်စဉ်အချိန်မှာ ကလေးငယ်များ  English, Japan, Chinese စတဲ့ကြိုက်နှစ်သက်ရာ နိုင်ငံခြားဘာသာစကားတခုခုကို‌ရွှေမော်ကွန်းကျောင်းတွင်‌ရွေးခြယ်သင်ကြားခြင်းဖြင့် ဘာသာစကားအခြေခံကောင်းများငယ်စဉ်အရွယ်မှာ လျင်မြန်စွာရရှိနိုင်မည့်အပြင် နိုင်ငံတကာ၏ ယဉ်ကျေးမှု နှင့် Knowledge is Power ဆိုတဲ့အတိုင်း ပြင်ပဗဟုသုတများတိုးပွာလာစေသည့်အကျိူးကျေးဇူးရရှိစေပါတယ်။
-.
+                ရွှေမော်ကွန်း ကိုယ်ပိုင်အလယ်တန်းကျောင်းတွင်် အခြေခံပညာသင်ရိုးနှင့် နိုင်ငံခြားသင်ရိုးတို့ကို ပူးတွဲသင်ကြားပေးရုံသာမက ပြင်ပသင်ရိုးများအနေဖြင့်
+                Mindfulness ၊ Arts ၊ Physical Education ၊ Music Education ဦ Coding နှင့် STEM တို့ကိုပါ ထည့်သွင်းသင်ကြားပေးခြင်းကြောင့်
+                ကျောင်းသား/သူများ ၏ ကိုယ်ကာယ ကျန်းမာသန်စွမ်းမှု၊ အာရုံစူးစိုက်မှုများ၊ ဖန်တီးမှုစွမ်းရည်၊ အနုပညာစွမ်းရည် တို့ကို ဖွံ့ဖြိုး တိုးတက်စေနိုင်ပါသည်။
           </p>
       
 
@@ -332,7 +330,7 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
    
                 
         <div class="row ">
-           <div class="col-sm-6  p-5">
+           <div v-if="font_type == 1" class="col-sm-6  p-5">
             <h1 class="mtext text-start ">WHY SHWE MAW KUN</h1>
             <h5 class="mtext2 bold mb-5 text-start"> WE'RE MAKING EVERY
 CHILD'S WORLD BETTER</h5>
@@ -342,8 +340,26 @@ CHILD'S WORLD BETTER</h5>
 Investment and Company Administration, Myanmar) is a both local and international education provider founded in January 2015 to provide quality national and international education with relatively reasonable fees in the region.
 Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary School, Cambridge English Learning Hub and Professional Skills & Leadership Development Training Hub for adults. We offer Myanmar National and Pearson Edexcel (British) curriculum with the aims to provide well-rounded education and opportunities to access nationally and internationally recognised qualification to pupils up to Grade 7/ Year 7, with provisions to expand year on year.
                  </p>
-         
+
               </div>
+          <div v-if="font_type == 2" class="col-sm-6  p-5">
+            <h3 style="font-size: 30px;line-height: 30px;font-weight: bold;" class="mtext mb-5 text-start ">ရွှေမော်ကွန်း ပညာရေး မိသားစုမှ ကြိုဆိုပါတယ်</h3>
+<!--            <h5 class="mtext2 bold mb-5 text-start"> WE'RE MAKING EVERY-->
+<!--CHILD'S WORLD BETTER</h5>-->
+            <p style="text-align:start;line-height: 30px;">
+              ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းသည်၂၀၁၅ခုနှစ် ဇန်နဝါရီလမှ စတင်၍ အရည်အသွေးမြင့်ပညာရေးအတွက် Maw Kun International Education Group မှဦးစီးပြီး သင့်တင့်မျှတသောကျောင်းလခနှုန်းထားဖြင့် နိုင်ငံတကာပညာရေးကို
+              သင်ကြားခွင့်ရရှိစေရန် မူလတန်းကြိုကျောင်းကို စတင်ဖွင့်လှစ်ခဲ့သည်။ <br>
+              ယခုအခါ မြန်မာနိုင်ငံပညာရေးဝန်ကြီးဌာန အသိအမှတ်ပြု ကိုယ်ပိုင်အလယ်တန်းကျောင်းအထိ တိုးချဲ့ဖွင့်လှစ်ခဲ့ပါသည်။
+              ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းတွင် မူလတန်းကြိုပညာရေး၊ မူလတန်းဆင့်၊ အလယ်တန်းဆင့်၊ ယနေ့ခေတ်တွင် မရှိမဖြစ်လိုအပ်သော အင်္ဂလိပ်ဘာသာစကား ကျွမ်းကျင်တတ်မြောက်မှုကို သင်ကြားပေးသည့်သင်တန်း (Cambridge English) နှင့်
+              လုပ်ငန်းကျွမ်းကျင်မှုဆိုင်ရာသင်တန်း၊ ခေါင်းဆောင်မှုစွမ်းရည်် မြှင့်တင်ရေးသင်တန်း တို့ကိုလည်းဖွင့်လှစ်ပေးခဲ့ပါသည်။
+              <br>
+              ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းတွင် မြန်မာနိုင်ငံအခြေခံပညာရေးသင်ရိုးညွှန်းတမ်း၊ နိုင်ငံတကာသင်ရိုးများဖြစ်ကြသော UK Pearson Edexcel International Curriculum ၊ Singapore Curriculum (Maths)၊
+              USA Curriculum (Science and Coding) ၊ နိုင်ငံခြားဘာသာစကား၊ ပန်းချီ၊ ဂီတ၊ အားကစား ၊ Mindfulness စသည့် ထပ်ဆောင်းဘာသာရပ်တို့ဖြင့် အရည်အသွေးပြည့်ဝသော ကျောင်းသူ/ သား များ ဖြစ်လာစေရန် ရည်ရွယ်လျက်
+              ၂၀၂၃-၂၀၂၄ ပညာသင်နှစ်တွင် Grade 8 (Year 9) အထိ ပညာသင်ကြားပေးနေပါသည်။ နောင်နှစ်များတွင်လည်း ဆက်လက်၍ အတန်းများကို တိုးချဲ့ဖွင့်လှစ်ပေးသွားပါမည် ဖြစ်ပါသည်။
+           </p>
+
+        </div>
+
 
             <div class="col-sm-6 p-5 d-flex align-items-center" >
               <div class=" intro "> 
@@ -628,14 +644,16 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
 <section class="section_6">
     <div class="container Part6">
           <div class="">
-                  <h1 class="fw-bold mtext">
-                      TESTIMONIAL
+            <h1 class="fw-bold mtext">
+                TESTIMONIAL
+            </h1>
 
-                  </h1>
-
-                  <h3 class="mtext3">
-                     WHAT PEOPLE SAY ABOUT US
-                  </h3>
+            <h3 v-if="font_type == 1" class="mtext3">
+               WHAT PEOPLE SAY ABOUT US
+            </h3>
+            <h3 v-if="font_type == 2" class="mtext3 mb-3">
+             မိဘများနှင့် ကျောင်းသား/ကျောင်းသူများ၏ စကားသံများ
+            </h3>
 
           </div>
           <div class="row d-flex justify-content-center" >
@@ -749,9 +767,13 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
     <div class="col d-flex justify-content-center">
       <div class="our_school_div_home"  style="position: relative;min-width:250px;max-width: 400px;">
           <img src="../assets/img/1.jpg" style="width:100%;height:100%;object-fit: cover;" alt="">
-        <div style="position:absolute;bottom: 0;right: 0;left: 0;">
+        <div v-if="font_type == 1" style="position:absolute;bottom: 0;right: 0;left: 0;">
             <p class="our-school-title mb-2"> PRE-SCHOOL</p>
             <p class="our-school-text">Age 3-5</p>
+        </div>
+        <div v-if="font_type == 2" style="position:absolute;bottom: 0;right: 0;left: 0;">
+            <p class="our-school-title mb-2">မူလတန်းကြိုကျောင်း</p>
+            <p class="our-school-text">အသက် ၃ - ၅</p>
         </div>
       </div>
     </div>
@@ -759,9 +781,13 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
     <div class="col d-flex justify-content-center">
       <div class="our_school_div_home"  style="position: relative;min-width:250px;max-width: 400px;">
           <img src="../assets/img/4.jpg" style="width:100%;height:100%;object-fit: cover;" alt="">
-        <div style="position:absolute;bottom: 0;right: 0;left: 0;">
+        <div v-if="font_type == 1" style="position:absolute;bottom: 0;right: 0;left: 0;">
             <p class="our-school-title mb-2">PRIMARY</p>
             <p class="our-school-text">Age 5-12</p>
+        </div>
+        <div v-if="font_type == 2" style="position:absolute;bottom: 0;right: 0;left: 0;">
+            <p class="our-school-title mb-2">မူလတန်း</p>
+            <p class="our-school-text">အသက် ၅ - ၁၂</p>
         </div>
       </div>
     </div>
@@ -778,9 +804,13 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
     <div class="col d-flex justify-content-center">
       <div style="position: relative;min-width:250px;max-width: 400px;" class="our_school_div_home">
           <img src="../assets/img/2.jpg" style="width:100%;height:100%;object-fit: cover;" alt="">
-        <div style="position:absolute;bottom: 0;right: 0;left: 0;">
+        <div v-if="font_type == 1" style="position:absolute;bottom: 0;right: 0;left: 0;">
           <p class="our-school-title mb-2"> LOWER SECONDARY</p>
           <p class="our-school-text">Age 12-14</p>
+        </div>
+        <div v-if="font_type == 2" style="position:absolute;bottom: 0;right: 0;left: 0;">
+          <p class="our-school-title mb-2">အလယ်တန်း</p>
+          <p class="our-school-text">အသက် ၁၂ - ၁၄</p>
         </div>
       </div>
     </div>
@@ -788,16 +818,21 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
     <div class="col d-flex justify-content-center">
       <div class="our_school_div_home" style="position: relative;min-width:250px;max-width: 400px;">
           <img src="../assets/img/3.jpg" style="width:100%;height:100%;object-fit: cover;" alt="">
-        <div style="position:absolute;bottom: 0;right: 0;left: 0;">
+        <div v-if="font_type == 1" style="position:absolute;bottom: 0;right: 0;left: 0;">
             <p class="our-school-title mb-2">WEEKEND & <br> SUMMER PROGRAM</p>
             <p class="our-school-text">Age 3-18</p>
+        </div>
+        <div v-if="font_type == 2" style="position:absolute;bottom: 0;right: 0;left: 0;">
+            <p class="our-school-title mb-2">စနေ/တနင်္ဂနွေ နှင့် <br> နွေရာသီ သင်တန်း</p>
+            <p class="our-school-text">အသက် ၃ - ၁၈ </p>
         </div>
       </div>
     </div>
   </div>
 </section>
 <div>
-    <h1 class=" mtext" style="margin:30px;margin-left:180px ;">News & Activities</h1>
+    <h1 v-if="font_type == 1" class=" mtext" style="margin:30px;margin-left:180px ;">News & Activities</h1>
+    <h3 v-if="font_type == 2" class=" mtext" style="margin:30px;margin-left:180px;font-weight: normal;font-size: 30px;">လှုပ်ရှားမှု ပုံရိပ်များ</h3>
   </div>
         <div class="row gx-0 d-flex justify-content-center  "  >
  
@@ -1139,6 +1174,7 @@ components: { VueSlickCarousel },
      data() {
       return {
           instafeed: null,
+        font_type: localStorage.getItem('font_type'),
         value: '',
         data2:null,
         data2_1:[],
@@ -1154,6 +1190,7 @@ components: { VueSlickCarousel },
             model:'model',
             list:'list',
             grid:'grid',
+
         
       }
     }, 

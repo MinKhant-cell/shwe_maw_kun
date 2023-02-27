@@ -18,14 +18,14 @@
                             <thead>
                                 <tr>
                                     <th class="text-center">Position</th>
-                                    <th class="text-center">Requirement</th>
+<!--                                    <th class="text-center">Requirement</th>-->
                                 </tr>
                             </thead>
                           <tbody>
                             <tr v-for="pl in positionlist">
                                 <td class="text-center">{{pl.position}}</td> 
                       
-                                <td class="text-center">{{pl.amount}} person</td>
+<!--                                <td class="text-center">{{pl.amount}} person</td>-->
                           </tr>
                         </tbody>
                           </table>

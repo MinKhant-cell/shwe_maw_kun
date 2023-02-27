@@ -14,7 +14,7 @@
             </div>
 
           </div>
-          <div class="col-7 shadow ">
+          <div v-if="font_type == 1" class="col-7 shadow ">
               <div style="padding:30px">
                 <h1 class="mb-5" style="font-size:30px; color:goldenrod">ABOUT SHWE MAW KUN</h1>
                 <p style="text-align:justify">
@@ -22,6 +22,18 @@
 Investment and Company Administration, Myanmar) is a both local and international education provider founded in January 2015 to provide quality national and international education with relatively reasonable fees in the region.
 Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary School, Cambridge English Learning Hub and Professional Skills & Leadership Development Training Hub for adults. We offer Myanmar National and Pearson Edexcel (British) curriculum with the aims to provide well-rounded education and opportunities to access nationally and internationally recognised qualification to pupils up to Grade 7/ Year 7, with provisions to expand year on year.
            
+                </p>
+               </div>
+          </div>
+          <div v-if="font_type == 2" class="col-7 shadow ">
+              <div style="padding:30px">
+                <h1 class="mb-5" style="font-size:30px; color:goldenrod">ရွှေမော်ကွန်း ကျောင်းအကြောင်း</h1>
+                <p style="text-align:justify;line-height: 30px;">
+                  ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းကို ၂၀၁၅ခုနှစ်တွင် နိုင်ငံတကာသင်ရိုးနှင့်ပြည်ထောင်စုမြန်မာနိုင်ငံတော် ပညာရေးဝန်ကြီးဌာန၏ အခြေခံပညာသင်ရိုးတို့ကို သင့်တင့်မျှတသော နှုန်းထားဖြင့် ကျောင်းသား/သူများတက်ရောက်နိုင်ရန် ရည်ရွယ်ချက်ဖြင့်စတင်ဖွင့်လှစ်ခဲ့ပါသည်။
+                  ပညာရေးဝန်ကြီးဌာနတွင် ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းအမည်ဖြင့် မှတ်ပုံတင်ထားရှိပြီး ကိုယ်ပိုင်ကျောင်းလိုင်စင်ရရှိထားကာ မော်ကွန်းနိုင်ငံတကာပညာရေးလုပ်ငန်းစုအမည်ဖြင့်ကုမ္ပဏီလိုင်စင်ရရှိထားပါသည်။
+                  ယခုအခါ ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းတွင် မူလတန်းကြိုအတန်းများ၊ မူလတန်း၊ အလယ်တန်း၊ Weekend International Programme နှင့် လူကြီးများအတွက် ခေါင်းဆောင်မှုသင်တန်းများ၊ စွမ်းရည်မြှင့်တင်မှုသင်တန်းတို့ကိုပါ ပို့ချပေးလျက်ရှိပါသည်။
+                  ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းသည် မလေးရှားနိုင်ငံရှိ A Level သင်ကြားရေး၌ အာရှပစိဖိတ်တွင် ထင်ရှားကျော်ကြားပြီး ကမ္ဘာ့နိုင်ငံများရှိထိပ်သီးတက္ကသိုလ်များသို့ တက်ရောက်ပညာသင်ကြားခွင့်ရသော ကျောင်းသားအများစုကို ပျိုးထောင်ပေးသည့် Help Academy နှင့် ချိတ်ဆက်ထားပါသည်။
+                  ထို့အပြင် ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းသည် တောင်ကြီးမြို့၏ပထမဦးဆုံး British Council Partner ကျောင်းဖြစ်ခြင်း၊ အင်္ဂလန်နိုင်ငံရှိနာမည်ကြီးစာစစ်ဌာနတစ်ခုဖြစ်သော Pearson Edexcel၏ အသိအမှတ်ပြုဌာနဖြစ်ခြင်း၊ Pearson Edexcel၏ အသိအမှတ်ပြု Early Years Centre ဖြစ်ခြင်းနှင့် Cambridge English Assessment ၏ စာစစ်ဌာနဖြစ်ခြင်းတို့ဖြစ်သည်။
                 </p>
                </div>
           </div>
@@ -34,18 +46,33 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
       <div class="col shadow" style="    border: 0px;
     border-right: 2px black;
     border-style: solid;">
-          <div class="section2_divleft ">
+          <div v-if="font_type == 1" class="section2_divleft ">
               <h2 ></h2>
               <h2 >OUR VISION</h2>
               <p  style=" white-space: pre-wrap">
                 To become a nationally and internationally-recognised school providing quality and affordable education to pupils to develop confidence, competence and to prepare each pupil for a socially responsible and compassionate citizen.<br>
               </p>
           </div>
+        <div v-if="font_type == 2" class="section2_divleft">
+          <h3 class="mb-5">ပညာရေး မျှော်မှန်းချက်</h3>
+          <ul style="list-style-type: square;text-align: start;">
+            <li>
+              <p>
+                သင့်တင့်မျှတသောနှုန်းထားဖြင့် အရည်အသွေးပြည့်မှီသော ပြည်တွင်းပြည်ပ အသိအမှတ်ပြုကျောင်းတစ်ကျောင်းဖြစ်လာစေရန်။
+              </p>
+            </li>
+            <li>
+              <p>
+                အရည်းအချင်းရှိသော၊ မိမိကိုယ်ကို ယုံကြည်မှုရှိသော ၊ တာဝန်ယူမှု တာဝန်ခံမှုရှိသော အနာဂတ်နိုင်ငံသေားကောင်းများ မွေးထုတ်ပေးနိုင်ရန်။
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="col shadow" style="  border: 0px;
     border-right: 2px black;
     border-style: solid;">
-          <div class="section2_divcenter ">
+          <div v-if="font_type == 1" class="section2_divcenter ">
               <h2 ></h2>
               <h2>OUR MISSION</h2>
               <p style=" white-space: pre-wrap">
@@ -65,11 +92,31 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
                 </ul>
                 </p>
           </div>
+        <div v-if="font_type == 2" class="section2_divcenter">
+          <h3 class="mb-5">ပညာရေး ရည်မှန်းချက်</h3>
+          <ul style="list-style-type: square;text-align: start;">
+            <li>
+              <p>
+                ကျောင်းသား/ကျောင်းသူတစ်ယောက်စီတိုင်းကို အရည်းအချင်းရှိသော၊ မိမိကိုယ်ကို ယုံကြည်မှုရှိသော ၊ တာဝန်ယူမှု တာဝန်ခံမှုရှိသော အနာဂတ်နိုင်ငံသေားကောင်းများ မွေးထုတ်ပေးနိုင်ရန်။
+              </p>
+            </li>
+            <li>
+              <p>
+                ပြောင်းလဲလာသည့်ပညာခေတ်တွင် ကျောင်းသား/သူများအတွက် လုံခြုံမှုအပြည့်ရှိပြီး လှုံ့ဆော်မှုအားကောင်းသော သင်ကြားသင်ယူမှုရပ်ဝန်းကောင်းလေးဖန်တီးပေးခြင်းဖြင့် စိန်ခေါ်မှုများကိုရင်ဆိုင်ကျော်ဖြတ်နိုင်သော ကျောင်းသား/သူလေးများပေါ်ပေါက်လာစေရန်။
+              </p>
+            </li>
+            <li>
+              <p>
+                သင့်တင့်မျှတသောနှုန်းထားဖြင့် ပြည်တွင်းပြည်ပအသိအမှတ်ပြု ကျောင်းတစ်ကျောင်းဖြစ်လာစေပြီး အရည်အသွေးပြည့်မှီသောပညာရေးကို လက်ဆင့်ကမ်းပေးနိုင်ရန်။
+              </p>
+            </li>
+          </ul>
+          </div>
       </div>
       <div class="col shadow" style="  border: 0px;
     border-right: 2px black;
     border-style: solid;">
-          <div class="section2_divright ">
+          <div v-if="font_type == 1" class="section2_divright ">
               <h2 ></h2>
               <h2>FUTURE EXPANSION</h2>
               <p  >
@@ -91,8 +138,33 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
 
                   </li>
                 </ul>
-
               </p>
+          </div>
+        <div v-if="font_type == 2" class="section2_divright ">
+
+          <h3 class="mb-5">အနာဂတ် ပညာရေးပန်းတိုင်</h3>
+          <ul style="list-style-type: square;text-align: start;">
+            <li>
+              <p>
+                အရည်အချင်းပြည့်မှီသော ဆရာ ဆရာမကောင်းများကို ခန့်အပ်ထားနိုင်ပြီး ပြည့်စုံကောင်းမွန်သော ပညာရေးကို ဖန်တီးပေးနိုင်ရန်။
+              </p>
+            </li>
+            <li>
+              <p>
+                နိုင်ငံတကာသင်ရိုးနှင့် ပြည်ထောင်စုမြန်မာနိုင်ငံ ပညာရေးဝန်ကြီးဌာနမှ ပြဌာန်းထားသော အခြေခံပညာသင်ရိုး ၂ခုစလုံးအတွက် သင်ကြားရေးနည်းလမ်းကောင်းများကို စဉ်ဆက်မပြတ် ပံပိုးပေးနိုင်ရန်။              </p>
+            </li>
+            <li>
+              <p>
+                နိုင်ငံတကာသင်ရိုးနှင့် ပြည်ထောင်စုမြန်မာနိုင်ငံ ပညာရေးဝန်ကြီးဌာနမှ ပြဌာန်းထားသော အခြေခံပညာသင်ရိုးတို့ကို ပူးတွဲသင်ကြားပေး၍ စိန်ခေါ်မှုများပြီး
+                တိုးတက်ပြောင်းလဲမှုမြန်ဆန်သောပညာခေတ်တွင် ကလေးများအနေဖြင့် ပညာရေးဖြင့် ပိုမိုကောင်းမွန်သောဘဝများကို ဖန်တီးနိုင်ရန်။
+              </p>
+            </li>
+            <li>
+              <p>
+                စဉ်ဆက်မပြတ်လေ့လာသင်ယူနိုင်မှုကို မြှင့်တင်ပေးနိုင်ပြီး ကျောင်းသား/သူများအတွက် ၂၁ရာစုခေတ်တွင်လိုအပ်သော ပညာအရည်အသွေးများကို ဖန်တီးပေးနိုင်ရန်နှင့် တာဝန်ယူမှု၊ တာဝန်ခံမှုရှိသော စာနာတတ်သော နိုင်ငံသားကောင်းလေးများပေါ်ထွန်းလာစေရန်။
+              </p>
+            </li>
+          </ul>
           </div>
       </div>
   </div>
@@ -130,8 +202,10 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
 		</ul>
 	</section>
 	<section class="cards-container  smk_responsive2">
-		<div class="card card--current" id="1">
-			<h1><span style="color:purple;">T</span>EACH</h1>
+
+<!--    Teach-->
+		<div v-if="font_type == 1" class="card card--current" id="1">
+			<h1><span style="color:purple;">T</span>Each</h1>
 			<p style="font-size:20px;">
          <br>
   
@@ -139,7 +213,15 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
 				inspiring teachers to engage in continual learning for valuable teaching
 			</p>
 		</div>
-		<div class="card" id="2">
+    <div v-if="font_type == 2" class="card card--current" id="1">
+			<h1><span style="color:purple;">T</span> - Teach - သင်ကြားသင်ယူမှု</h1>
+			<p style="font-size:20px;"><br>
+        တန်ဖိုးရှိသော သင်ကြားမှုများအတွက် စဉ်ဆက်မပြတ် လေ့လာသင်ယူမှုတွင်ပါဝင်ရန် ဆရာ ဆရာမများအား လှုံ့ဆော်ပေးနိုင်ရန်။
+			</p>
+		</div>
+
+<!--    Respect-->
+		<div v-if="font_type == 1" class="card" id="2">
 			<h1><span style="color:purple;">R</span>ESPECT</h1>
 			<p style="font-size:20px;">
  
@@ -148,17 +230,31 @@ Our portfolio covers Premium Pre-school (Early Years), Primary School, Secondary
 				respect for self and others
 			</p>
 		</div>
-		<div class="card" id="3">
-			<h1><span style="color:purple;">U</span>NIQUE</h1>
+    <div v-if="font_type == 2" class="card" id="2">
+			<h1><span style="color:purple;">R</span> - Respect</h1>
 			<p style="font-size:20px;">
-     
         <br>
-      
-				the development of unique curriculum to deliver academic success and build self-worth to be a compassionate and responsible citizen, and to the bond-building among teachers, pupils and parents for higher education.
- 
+        တစ်ဦးနှင့် တစ်ဦး အပြန်အလှန်လေးစားမှု - ကိုယ့်ကိုယ်ကိုရော သူတစ်ပါးကိုပါလေးစားမှုရှိရန်။
 			</p>
 		</div>
-		<div class="card" id="4">
+
+<!--    unique-->
+		<div v-if="font_type == 1" class="card" id="3">
+			<h1><span style="color:purple;">U</span>NIQUE</h1>
+			<p style="font-size:20px;">
+        <br>
+				the development of unique curriculum to deliver academic success and build self-worth to be a compassionate and responsible citizen, and to the bond-building among teachers, pupils and parents for higher education.
+			</p>
+		</div>
+    <div v-if="font_type == 2" class="card" id="3">
+			<h1><span style="color:purple;">U</span> - Unique</h1>
+			<p style="font-size:20px;">
+        <br>
+        မိဘ၊ဆရာ၊ကျောင်းသား သုံးဦး သုံးဖလှယ် ပူးပေါင်းပြီး စာနာနားလည်တတ်သော၊ တာဝန်သိသော၊ ထူးချွန်ထက်မြက်သော မိမိကိုယ်မိမိတန်ဖိုးထားတတ်သော နိုင်ငံသားကောင်းများပေါ်ထွန်းလာစေရန်နှင့် အဆင့်မြင့်ပညာရေးအတွက် ထူးခြားသစ်လွင်သော
+        သင်ရိုးညွှန်းတမ်းများ ဖော်ဆောင်နိုင်စေရန်။			</p>
+		</div>
+<!--    Success-->
+		<div v-if="font_type == 1" class="card" id="4">
 			<h1><span style="color:purple;">S</span>UCCESS</h1>
 			<p style="font-size:20px;">
 
@@ -170,15 +266,28 @@ success
       
       </p>
 		</div>
-		<div class="card" id="5">
+    <div v-if="font_type == 2" class="card" id="4">
+			<h1><span style="color:purple;">S</span> - Success</h1>
+			<p style="font-size:20px;">
+        <br>
+        ဆရာ ဆရာမများ နှင့် ကျောင်းသား/သူများ၏ ကျွမ်းကျင်တိုးတက်မှုနှင့် အောင်မြင်သောကျောင်းအဖြစ်ရပ်တည်နိုင်စေရန်။
+
+      </p>
+		</div>
+
+<!--    Talent-->
+		<div v-if="font_type == 1" class="card" id="5">
 			<h1><span style="color:purple;">T</span> ALENT</h1>
 			<p style="font-size:20px;">
-  
         <br>
-        
-
 			discover the natural talent, skills and aptitude of the pupils and teachers
- 
+			</p>
+		</div>
+    <div v-if="font_type == 2" class="card" id="5">
+			<h1><span style="color:purple;">T</span> - Talent</h1>
+			<p style="font-size:20px;">
+        <br>
+        ကျောင်းသား/သူနှင့် ဆရာ ဆရာမများ၏ ပင်ကိုယ်စွမ်းရည်နှင့် အရည်အချင်းများကို ဖော်ထုတ်နိုင်စေရန်။
 			</p>
 		</div>
 	
@@ -197,35 +306,57 @@ success
     <div class="col-9">
       <div   style="margin: 50px;">
         <h2 style="color:#F3cd5d;text-align:left;">PRINCIPAL'S MESSAGE</h2>
-      <P style="text-align:justify;">
-        ဆရာမကြီး ဒေါ်ဝင်းစန္ဒာတင့်ရှိန် သည် အထက်တန်းပြဆရာမ အဖြစ် အထက(၃)တောင်ကြီးတွင် ၁၉၈၁ မှ ၁၉၉၆ အထိ (၁၅ နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပြီး လက်ထောက်ကထိက အဖြစ် တောင်ကြီး ပညာရေးကောလိပ်တွင် ၁၉၉၆ မှ ၂၀၀၆ အထိ (၁၀ နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပါသည်။ ထို့အပြင် တောင်ကြီး ပညာရေးကောလိပ်တွင် လက်ထောက်မော်ကွန်းထိန်း အဖြစ် ၂၀၀၆ မှ ၂၀၁  ၃ ခုနှစ် အထိ (၇ နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပါသည်။ ထို့နောက် ပန်းပျိုးခင်းကိုယ်ပိုင်ကျောင်း၊တောင်ကြီးတွင် ကျောင်းအုပ်ရာထူးဖြင့် ၂၀၁၄ မှ ၂၀၂၀ အထိ (၆နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပါသည်။ 
-     
+      <P style="text-align:start;line-height: 30px;">
+        ကျွန်မကတော့ တောင်ကြီးမြို့ ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းမှာ တာဝန် ထမ်းဆောင်နေတဲ့ တွဲဖက်ကျောင်းအုပ် ဒေါ်ဝင်းစန္ဒာတင့်ရှိန်ဖြစ်ပါတယ်။
+        ကျွန်မ ပညာရေးတက္ကသိုလ်က ကျောင်းဆင်းပီး အ.ထ.က(၃)တောင်ကြီးမှာ အထက်တန်းပြအဖြစ် ပထမဆုံး တာဝန်ထမ်းဆောင်ခဲ့တာဖြစ်ပြီး အဌမတန်း၊ နဝမတန်း၊ ဒသမတန်းတို့မှာ မြန်မာစာ၊ ပထဝီဝင်၊
+        သမိုင်းဘာသာရပ်တွေ သင်ကြားခဲ့ပါတယ်။
+        <br>
+        နောက်တောင်ကြီးပညာရေးကောလိပ်မှာ လက်ထောက်ကထိက၊ လက်ထောက်မော်ကွန်းထိန်း၊ ဌာနမှူး (စီမံ) တာဝန်များထမ်းဆောင်ခဲ့ပါတယ်။ ပညာရေးဌာနမှာ လုပ်သက် (၃၂)နှစ် လုပ်ခဲ့ပါတယ်။
+        အငြိမ်းစားယူပြီးနောက် ကိုယ်ပိုင်ကျောင်းတစ်ခုမှာ ကျောင်းအုပ်တာဝန်ထမ်းဆောင်ခဲ့ပါတယ်။ ယခုလက်ရှိမှာတော့ ရွှေမော်ကွန်းကျောင်းမှာ တွဲဖက်ကျောင်းအုပ်အနေဖြင့်
+        ကျွန်မရဲ့လုပ်ငန်းအတွေ့အကြုံပေါ်မူတည်ပြီး ရုံးပိုင်းဆိုင်ရာလုပ်ငန်း၊ ဆရာ ဆရာမ သင်ကြားရေးအပိုင်း၊ ကျောင်းသား ကျောင်းသူလေးများအတွက် တတ်မြောက်မှုစစ်ဆေးရေးအပိုင်းတွေကို
+        ညွှန်ကြားကြီးကြပ်ပေးပါတယ်ရှင်။
+        <br>
+        သင်ကြားသင်ယူမှု လုပ်ငန်းစဉ်များအပြင်် ကျောင်းသား/သူလေးတွေရဲ့ကျန်းမာရေး၊စည်းကမ်းလိုက်နာစေရေး၊ ယဉ်ကျေးသိမ်မွေ့စွာပြောဆိုနေထိုင်တတ်စေရေး နှင့် လူမှုဆက်ဆံရေးတို့ပိုမိုကောင်းမွန်စေအောင်တို့ကိုလည်း
+        အလေးထားဆောင်ရွက်ပေးပါတယ်။
+        <br>
+        ကျွန်မတို့ ရွှေမော်ကွန်းကျောင်းမှာ ဆရာ ဆရာမကလည်း ကလေးများရဲ့ သင်ကြားသင်ယူမှု ၊ တတ်မြောက်မှုတို့ကို အစဉ်တစိုက်အလေးထားဆောင်ရွက်ပေးလျက်ရှိကြပါတယ်။
+        ပြောင်းလဲ တိုးတက်နေသော ပညာခေတ်စနစ်တွင် ကလေးများအား ထိရောက်စွာ တီထွင်ဆန်းသစ်သော အဆင့်မီသင်ကြားနည်းများဖြင့် သင်ကြားပြသပေးနိုင်ရန် ဆရာ ဆရာမများအတွက် ဘာသာရပ်ဆိုင်ရာ မွမ်းမံသင်တန်းများနှင့်
+        စွမ်းရည်မြှင့်သင်တန်းများကိုလဲ အစဉ်တစိုက်ပံ့ပိုးပေးလျက်ရှိပါတယ်။
+        <br>
+        ကျွန်မတို့ကျောင်းမှာ National နဲ့ International သင်ရိုးကိုသင်ကြားပေးပြီး English language ကို အသုံးပြုပြောဆိုနေကြပေမဲ့လဲ မြန်မာ့ယဉ်ကျေးမှုနဲ့အညီ ဝတ်စားဆင်ယင်တတ်ဖို့၊
+        ယဉ်ကျေးစွာပြောဆိုတတ်ဖို့၊ ထူးချွန်ထက်မြက်ပြီး စာနာနားလည်တတ်သော နိုင်ငံသားကောင်းများဖြစ်လာစေဖို့ ကိုလဲ အဓိကထား ကြီးကြပ်ဆောင်ရွက်ပေးပါတယ်။
+        <!--        ဆရာမကြီး ဒေါ်ဝင်းစန္ဒာတင့်ရှိန် သည် အထက်တန်းပြဆရာမ အဖြစ် အထက(၃)တောင်ကြီးတွင် ၁၉၈၁ မှ ၁၉၉၆ အထိ (၁၅ နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပြီး လက်ထောက်ကထိက အဖြစ် တောင်ကြီး ပညာရေးကောလိပ်တွင် ၁၉၉၆ မှ ၂၀၀၆ အထိ (၁၀ နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပါသည်။ ထို့အပြင် တောင်ကြီး ပညာရေးကောလိပ်တွင် လက်ထောက်မော်ကွန်းထိန်း အဖြစ် ၂၀၀၆ မှ ၂၀၁  ၃ ခုနှစ် အထိ (၇ နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပါသည်။ ထို့နောက် ပန်းပျိုးခင်းကိုယ်ပိုင်ကျောင်း၊တောင်ကြီးတွင် ကျောင်းအုပ်ရာထူးဖြင့် ၂၀၁၄ မှ ၂၀၂၀ အထိ (၆နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပါသည်။ -->
       </P>
+        <p  style="text-align: start;line-height: 30px;" >
+          ဒေါ်ဝင်းစန္ဒာတင်ရှိန်<br>
+          တွဲဖက်ကျောင်းအုပ်ဆရာမကြီး<br>
+          B.Ed (၁၉၇၅-၁၉၈၀)
+        </p>
       </div>
     
 </div>
  </div>
   </div>
 
- <div class="row gx-0 shadow">
-  <div class="col-9">
-      <div   style="margin: 50px;">
-        <h2 style="color:#F3cd5d;text-align:left;">VICE PRINCIPAL'S MESSAGE</h2>
-      <P style="text-align:justify;">
-        ဆရာမကြီး ဒေါ်မြင့်မြင့်ဝင်း သည် အထက်တန်းပြဆရာမ အဖြစ် အထက ဆီဆိုင်တွင် ၁၉၈၃ မှ ၁၉၉၃ အထိ (၁၀ နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပြီး အ.ထ.က (၁) တောင်ကြီး တွင် ၁၉၉၃ မှ ၂၀၁၉ အထိ (၂၆ နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပါသည်။ ယခုလက်ရှိတွင် ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းတွင် ကျောင်းအုပ်ချုပ်ရေးတာဝန်ကို ထမ်းဆောင်လျှက်ရှိပါသည်။
-    
-      </P>
-      </div>
-    
-</div>
-    <div class="col-3">
-      <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
-        <img src="./../assets/img/teacher/tr4.png" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
-  
-      </div>
-       </div>
-  
- </div>
+<!-- <div class="row gx-0 shadow">-->
+<!--  <div class="col-9">-->
+<!--      <div   style="margin: 50px;">-->
+<!--        <h2 style="color:#F3cd5d;text-align:left;">VICE PRINCIPAL'S MESSAGE</h2>-->
+<!--      <P style="text-align:justify;">-->
+<!--        ဆရာမကြီး ဒေါ်မြင့်မြင့်ဝင်း သည် အထက်တန်းပြဆရာမ အဖြစ် အထက ဆီဆိုင်တွင် ၁၉၈၃ မှ ၁၉၉၃ အထိ (၁၀ နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပြီး အ.ထ.က (၁) တောင်ကြီး တွင် ၁၉၉၃ မှ ၂၀၁၉ အထိ (၂၆ နှစ်) တာဝန်ထမ်းဆောင်ခဲ့ပါသည်။ ယခုလက်ရှိတွင် ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းတွင် ကျောင်းအုပ်ချုပ်ရေးတာဝန်ကို ထမ်းဆောင်လျှက်ရှိပါသည်။-->
+<!--    -->
+<!--      </P>-->
+<!--      </div>-->
+<!--    -->
+<!--</div>-->
+<!--    <div class="col-3">-->
+<!--      <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">-->
+<!--        <img src="./../assets/img/teacher/tr4.png" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">-->
+<!--  -->
+<!--      </div>-->
+<!--       </div>-->
+<!--  -->
+<!-- </div>-->
  <div class="avice_color shadow" style="color:white">
   <div class="row gx-0">
     <div class="col-3">
@@ -236,10 +367,25 @@ success
        </div>
     <div class="col-9">
       <div   style="margin: 50px;">
-        <h2 style="color:#F3cd5d;text-align:left;">HEAD TEACHER (TR.THET) MESSAGE</h2>
-      <P style="text-align:justify;">
-        Since she was younger, speaking English has really influenced her. In order to acquire a foundational understanding of the English language after high school, she took Basic and Pre-Intermediate English courses at St. Aloysius Gonzaga Language Institute. She continued her education at Taunggyi University, where she earned a Bachelor of Arts in English. In addition, she was awarded an Access Micro Scholarship Program to study English under the management of U.S. Embassy in Rangoon. She was motivated to become a teacher by all of her instructors. She enjoys instructing young students and equip the 21st century skills to students. She has been in the private education industry for more than ten years.
-      </P>
+        <h2 style="color:#F3cd5d;text-align:left;">HEAD TEACHER MESSAGE</h2>
+      <p style="text-align:start;line-height: 30px;">
+        ကျွန်မနာမည်ကတော့ ရွှေမော်ကွန်းကျောင်းမှာ Head teacher အနေနှင့် International Curriculum ရဲ့ Teaching and Learning အပိုင်းကို တာဝန်ယူလုပ်ကိုင်ပေးနေတဲ့ ဒေါ်နန်းသက်နွယ်ဦးဖြစ်ပါတယ်ရှင်။
+        <br>
+        ကျွန်မကတော့ အမေရိကန်သံရုံးကပေးအပ်တဲ့ English Access Micro Scholarship Program Award ကို ရရှိခဲ့ပါတယ်။ သင်ကြားရေးလုပ်သက်အနေဖြင့် International ကျောင်းတစ်ကျောင်းတွင် (၅) နှစ်လုပ်ခဲ့ပြီး ယခု ရွှေမော်ကွန်းကျောင်းတွင် ၂၀၁၆ မှ စတင်တာဝန်ထမ်းဆောင်ခဲ့ပါသည်။
+        <br>
+        ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းတွင် ဆရာ ဆရာမများ၏ သင်ကြာမှုထိရောက်စေရန် အတန်းတွင်းသင်ကြားမှုများကိုအကဲဖြတ်စစ်ဆေးပေးပြီး အရည်အသွေးမြှင့်သင်တန်းများကိုလည်း စီစဉ်ပေးလျက်ရှိပါတယ်။ အတန်းလိုက် ဘာသာရပ်ခွဲဝေမှုတာဝန်ကိုလဲ ထမ်းဆောင်ပေးပါတယ်။
+        <br>
+        Daw Nang Thet New Oo <br>
+        Head Teacher <br>
+        B.A (English) <br>
+        Certificate in TESOL Methodology (Canvas) <br>
+        Certificate in Jolly Phonics <br>
+        Cambridge International Diploma in Teaching and Learning (Candidate)
+      </p>
+
+<!--        <P style="text-align:justify;">-->
+<!--        Since she was younger, speaking English has really influenced her. In order to acquire a foundational understanding of the English language after high school, she took Basic and Pre-Intermediate English courses at St. Aloysius Gonzaga Language Institute. She continued her education at Taunggyi University, where she earned a Bachelor of Arts in English. In addition, she was awarded an Access Micro Scholarship Program to study English under the management of U.S. Embassy in Rangoon. She was motivated to become a teacher by all of her instructors. She enjoys instructing young students and equip the 21st century skills to students. She has been in the private education industry for more than ten years.-->
+<!--      </P>-->
       </div>
     
 </div>
@@ -248,24 +394,103 @@ success
 
 
  <div class="row gx-0 shadow">
+   <div class="col-3">
+     <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
+       <img src="./../assets/img/teacher/tr1.png" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
+     </div>
+   </div>
   <div class="col-9">
       <div   style="margin: 50px;">
-        <h2 style="color:#F3cd5d;text-align:left;">DEPUTY HEADTEACHER (TR.POENT)</h2>
-      <P style="text-align:justify;">
-        သင်္ချာ သင်ကြားတဲ့နေရာမှာ balance ညီဖို့က အလွန်အရေးပါတယ်။ ကျောင်းသားတစ်ယောက်ချင်းစီက သူတို့အရှိန်လေးနဲ့သူတို့ လေ့လာနေတယ်ဆိုတာ သေချာစေဖို့အတွက် learning gap လေးတွေ ထားပေးဖို့လည်း လိုတာပေါ့။ ဒါပေမဲ့လို့ တဖြည်းဖြည်း progress ဖြစ်လာတဲ့ ကျောင်းသားတွေအတွက်လည်း သူတို့လေးတွေ မပျင်းရအောင် challenge လေးတွေ ရှိနေဖို့ လိုပါသေးတယ်။    </P>
+        <h2 style="color:#F3cd5d;text-align:left;">DEPUTY HEADTEACHER</h2>
+      <p style="text-align:start;line-height: 30px;">
+        ကျွန်မကတော့ ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းတွင် စည်းကမ်းပိုင်းဆိုင်ရာ နှင့် ဝန်ထမ်းရွေးချယ်  ခန့်အပ်ရေးအပိုင်းတွင်တာဝန်ယူဆောင်ရွက်ပေးလျက်ရှိပါတယ်ရှင်။
+        <br>
+        ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းသည် ကျောင်းသား/သူလေးများ၏ သင်ကြားသင်ယူမှုတွင် ထူးချွန်ထက်မြက်စေရန်သာမက ယဉ်ကျေးလိမ္မာပြီး
+        စည်းကမ်းကိုစနစ်တကျလိုက်နာတတ်စေရန် အမြဲသွန်းသင်ဆုံးမပေးလျက်ရှိပါတယ်။ <br>
+        ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းတွင်် ကျောင်းကောင်စီအဖွဲ့ကို ဖွဲ့စည်းထားရှိပြီး ကျောင်းကောင်စီအဖွဲ့ဝင်ကျောင်းသား/သူများနှင့် ဆရာ ဆရာမများအတူတကွပူးပေါင်းပြီး
+        ကျောင်းသား/သူများလိုက်နာရမည့် စည်းကမ်းများကိုချမှတ်ထားပါတယ်။<br>
+        Daw Nang Mya Nandar Soe <br>
+        Deputy Head Teacher <br>
+        B.A (Myanmar)
+      </p>
       </div>
-    
-</div>
-    <div class="col-3">
-      <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
-        <img src="./../assets/img/teacher/tr1.png" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
-  
-      </div>
-       </div>
-  
+  </div>
  </div>
 
- <div class="avice_color shadow" style="color:white">
+  <div class="row gx-0 shadow">
+   <div class="col-3">
+     <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
+       <img src="" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
+     </div>
+   </div>
+  <div class="col-9">
+      <div   style="margin: 50px;">
+        <h2 style="color:#F3cd5d;text-align:left;">Secondary School Coordinator/ English Subject Lead</h2>
+      <p style="text-align:start;line-height: 30px;">
+        ကျွန်မကတော့ ဒေါ်နန်းမိုးပွင့်ဖြူ ဖြစ်ပါတယ်ရှင်။ လက်ရှိ ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းမှာ Secondary School Coordinator နှင့် English Subject Lead
+        အနေနဲ့ ပူးတွဲတာဝန်ထမ်းဆောင်နေပါတယ်။ <br>
+        ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းမှ အလယ်တန်းကျောင်းသား/သူများ နိုင်ငံတကာအဆင့်မီ အရည်အသွေးပြည့်ဝသောပညာရေးကို လက်လှမ်းမီအောင် လေ့ကျင့်ပျိုးထောင်ပေးနေပါတယ်။<br>
+        ဒေါ်နန်းမိုးပွင့်ဖြူ <br> B.A (English) <br>
+        Certificate in TESOL Methodology (Canvas) <br>
+        Cambridge English Diploma in Teaching and Learning (Candidate)
+      </p>
+      </div>
+  </div>
+ </div>
+
+
+  <div class="row gx-0 shadow">
+   <div class="col-3">
+     <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
+       <img src="" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
+     </div>
+   </div>
+  <div class="col-9">
+      <div   style="margin: 50px;">
+        <h2 style="color:#F3cd5d;text-align:left;">Primary School Coordinator</h2>
+      <p style="text-align:start;line-height: 30px;">
+        ကျွန်မကတော့ ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းရဲ့ Primary School Coordinator ဒေါ်တင်နီလာဆွေဖြစ်ပါတယ်ရှင်။
+        Kindergarten ကနေ Year 6 အထိ ကျောင်းသား/သူများ၏ သင်ကြားသင်ယူမှုမှာ တိုးတက်မှုရှိစေဖို့ ကြီးကြပ်ပေးပါတယ်။<br>
+        ဒေါ်တင်နီလာဆွေ <br>
+        B.Sc (Physics) <br>
+        Cambridge English Diploma in Teaching and Learning (Candidate)
+      </p>
+      </div>
+  </div>
+ </div>
+
+  <div class="row gx-0 shadow">
+    <div class="col-3">
+      <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
+        <img src="" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
+      </div>
+    </div>
+    <div class="col-9">
+      <div   style="margin: 50px;">
+        <h2 style="color:#F3cd5d;text-align:left;">Weekend International Programme Coordinator</h2>
+        <p style="text-align:start;line-height: 30px;">
+          ကျွန်မကတော့ Weekend International Programme Coordinator ဒေါ်နွေးနွေးအိဖြစ်ပါတယ်။
+          သင်ကြားရေးလုပ်သက်အနေဖြင့် International ကျောင်းတစ်ကျောင်းတွင် (၄)နှစ်လုပ်ခဲ့ပြီး ယခုရွှေမော်ကွန်းကျောင်းတွင် ၂၀၁၇ မှ စတင်တာဝန်ထမ်းဆောင်ခဲ့ပါတယ်။<br>
+          ယခုလက်ရှိမှာတော့ ရွှေမော်ကွန်းကိုယ်ပိုင် အလယ်တန်းကျောင်းရဲ့ Weekend International Programme Coordinator အဖြစ်တာဝန်ထမ်းဆောင်နေပါတယ်ရှင့်။
+          ရွှေမော်ကွန်း ကျောင်းရဲ့ Weekend International Programme ကို ၂ဝ၂၂-၂၀၂၃ ပညာသင်နှစ်မှာ ကလေးများအတွက် အနာဂါတ်မှာ အထောက်အပံ့အများကြီးပေးနိုင်မဲ့
+          ဘာသာရပ်ကြီး(၅)ခုဖြစ်တဲ့ English, Maths, Science, Computing/Coding နှင့် Global citizenship ဆိုပြီး ထည့်သွင်းသင်ကြားပေးလျက်ရှိပါတယ်ရှင်။<br>
+          ကျွန်မတို့ ရွှေမော်ကွန်းကျောင်းမှာ Weekday တက်တဲ့ ကလေးနဲ့ Weekend တက်တဲ့ကလေးတွေအတွက် သင်ရိုးတွေကို ခွဲခြားထားတာမျိုးမရှိပါဘူး။
+          ရွှေမော်ကွန်းကျောင်းမှာတက်တဲ့ ဘယ်ကလေးကိုမဆို ပညာရေးအခွင့်အလမ်းတွေကို တန်းတူဖန်တီးပေးမှာပါပဲ။ ကျွန်မတို့ ရွှေမော်ကွန်းမိသားစုအနေနဲ့လဲ ပိုမိုကောင်းမွန်တဲ့ အဆင့်မီပညာရေးမျိုးကို
+          ကလေးများလက်လှမ်းမီအောင် ဖြည့်ဆည်းပေးနိုင်ဖို့ဆက်လက်ကြိုးစားသွားပါဦးမယ်ရှင်။
+          <br>
+          Weekend International Programme Coordinator <br>
+          Daw Nway Nway Ei <br>
+          B.A (English) <br>
+          Certificate in TESOL Methodology (Canvas) <br>
+          Certificate in Jolly Phonics <br>
+          Cambridge English Diploma in Teaching and Learning Candidate)
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="avice_color shadow" style="color:white">
     <div class="row gx-0">
     <div class="col-3">
       <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
@@ -276,8 +501,15 @@ success
     <div class="col-9">
       <div   style="margin: 50px;">
         <h2 style="color:#F3cd5d;text-align:left;">NATIONAL CURRICULUM COORDINATOR (TR. KAY THI) MESSAGE</h2>
-      <P style="text-align:justify;">
-        အခုလို တိုးတက်ပြောင်းလဲလာတဲ့ ခေတ်ကြီးမှာ ဘာသာစကားကလည်း ကလေးငယ်တွေအတွက် မဖြစ်မနေ လေ့လာသင်ယူရမဲ့ အရာတစ်ခု ဖြစ်လာပါတယ်။ ကလေးငယ်တွေ ဘာသာစကား သင်ယူရာမှာ အဓိကအရေးပါတဲ့ listening skills, speaking skill, reading skill,  writing skill တွေ ဖွံ့ဖြိုးတိုးတက်လာစေဖို့ ငယ်စဉ်အခါတည်းက စနစ်တကျ သင်ကြားပေးဖို့ လိုအပ်ပါတယ်။    </P>
+      <p style="text-align:start;line-height: 30px;">
+        ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းမှာ ကျွန်မရဲ့အဓိကတာဝန်ကတော့ ပညာရေးဝန်ကြီးဌာနမှပြဌာန်းထားတဲ့ အခြေခံပညာသင်ရိုး သင်ကြားရေးကို ကြီးကြပ်အုပ်ချုပ်ရပါတယ်ရှင့်။
+        <br>
+        ကလေးများသင်ခန်းစာသင်ယူမှုအပေါ် နားလည်တတ်မြောက်မှု ရှိ/မရှိ ကိုလည်း စာသင်ခန်းတွင်း သင်ခန်းစာတစ်ခုသင်ပြီးတိုင်း ညွှန်ကြားထားတဲ့အတိုင်း အကဲဖြတ်စစ်ဆေးမှုတွေကိုလည်း ပြုလုပ်ပေးပါတယ်။
+        ပညာသင်နှစ် တစ်နှစ်လုံးအတွက် ပညာရေးဝန်ကြီးဌာနက သတ်မှတ်ထားတဲ့ တတ်မြောက်မှုစစ်ဆေးခြင်း (၄) ကြိမ်ကိုလည်း သတ်မှတ်ချိန်အတိုင်း စစ်ဆေးပေးပါတယ်။<br>
+        ဒေါ်ကေသီခိုင် <br>
+        National Curriculum Coordinator <br>
+        M.Sc (Biotech)
+      </p>
       </div>
     
 </div>
@@ -285,24 +517,134 @@ success
   </div>
 
   <div class="row gx-0 shadow">
+    <div class="col-3">
+      <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
+        <img src="" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
+
+      </div>
+    </div>
   <div class="col-9">
       <div   style="margin: 50px;">
-        <h2 style="color:#F3cd5d;text-align:left;">STUDENT AFFAIR/ COUNSELLING COORDINATOR (TR.WIN) MESSAGE</h2>
-      <P style="text-align:justify;">
-        သင်္ချာ သင်ကြားတဲ့နေရာမှာ balance ညီဖို့က အလွန်အရေးပါတယ်။ ကျောင်းသားတစ်ယောက်ချင်းစီက သူတို့အရှိန်လေးနဲ့သူတို့ လေ့လာနေတယ်ဆိုတာ သေချာစေဖို့အတွက် learning gap လေးတွေ ထားပေးဖို့လည်း လိုတာပေါ့။ ဒါပေမဲ့လို့ တဖြည်းဖြည်း progress ဖြစ်လာတဲ့ ကျောင်းသားတွေအတွက်လည်း သူတို့လေးတွေ မပျင်းရအောင် challenge လေးတွေ ရှိနေဖို့ လိုပါသေးတယ်။  
-Mathletics က mental mathematical skills ကို တိုးတက်စေဖို့အတွက် အကောင်းဆုံးနည်းလမ်းပဲ ဖြစ်ပါတယ်။ Mathletics က အများနဲ့ယှဉ်ပြိုင်ရတဲ့ gaming platform တစ်ခုပုံစံနဲ့ ကလေးတွေရဲ့ စိတ်တွက် တွက်ချက်မှုနဲ့ တိကျသေချာမှုကို လေ့ကျင့်ပေးနိုင်ပါတယ်။ အဲဒီမှာဆိုရင် ကလေးတွေအနေနဲ့ bot နဲ့ ယှဉ်ပြိုင်နိုင်သလို တစ်တန်းထဲက၊ ဒါမှမဟုတ် တစ်ကျောင်းထဲက ကျောင်းသားအချင်းချင်းလည်း ယှဉ်ပြိုင်လို့ရပါတယ်။  
-
-      </P>
+        <h2 style="color:#F3cd5d;text-align:left;">Student Affairs/Head of School Counsellor
+        </h2>
+      <p style="text-align:start;line-height: 30px;">
+        ကျွန်မက တော့ ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းမှာ Head of School Counsellor အနေနဲ့ ကျောင်းသားရေးရာ အပိုင်း ကို အဓိက တာဝန်ယူထားပါတယ်။<br>
+        ကလေးသူငယ် စောင့်ရှောက်ရေးနှင့် ကာကွယ်ရေး (Safe Guarding and Child Protection) မူဝါဒများကို နိုင်ငံတကာစံနှုန်းများနှင့်အညီ ပြုစုရေးဆွဲပြီး လိုက်နာကျင့်သုံးနေပါတယ်။
+        နည်းပညာဖွံ့ဖြိုးတိုးတက်လာတဲ့ ယခုခေတ်မှာဆိုရင် ဆရာ ဆရာမ များအနေဖြင့် ကလေးစိတ်ပညာကို နားလည်ထားဖို့က အလွန်ပင်အရေးကြီးပါတယ်။
+        ရွှေမော်ကွန်းကျောင်းမှာဆိုရင် ကလေးတွေရဲ့ပညာရေးကိုသာမက စိတ်ခံစားချက်နဲ့အပြုအမူပြောင်းလဲမှုကိုလည်း လမ်းမှန်ရောက်အောင် အပြုသဘောဆောင် ဆွေးနွေးပေးပါတယ်။
+        ကျောင်းသားကျောင်းသူများကို အကောင်းဆုံးပံ့ပိုးပေးနိုင်ရန် မိမိနှစ်သက်ရာ ဆရာ၊ဆရာမ (Trusted Adult) ကိုရွေးချယ်ပြီး လွတ်လပ်စွာ ရင်ဖွင့်ဆွေးနွေးတိုင်ပင်နိုင်အောင်လဲစီစဉ်ထားပါတယ်။
+        <br>
+        Daw Nang Win Myint Aye <br>
+        Student Affairs/Head of School Counsellor <br>
+        M.Sc. (Biotech) <br>
+        Certificate in Intermediate Counselling Training
+      </p>
       </div>
     
 </div>
+ </div>
+
+  <div class="row gx-0 shadow">
     <div class="col-3">
       <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
-        <img src="./../assets/img/teacher/winkoko.png" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
-  
+        <img src="" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
+
       </div>
-       </div>
-  
+    </div>
+  <div class="col-9">
+      <div   style="margin: 50px;">
+        <h2 style="color:#F3cd5d;text-align:left;">Early Years Trainers/ Advisor
+        </h2>
+      <p style="text-align:start;line-height: 30px;">
+        ကျွန်မကတော့ ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းတွင် မူလတန်းကြိုအတန်းများ၏သင်ကြားရေးကို ကြီးကြပ်ပေးပါတယ်။
+        ထို့အပြင် ဆရာမများကိုလည်း ကလေးငယ်များအတွက်မရှိမဖြစ်လိုအပ်တဲ့ (၂၁)ရာစုစွမ်းရည်များကို သင်ကြားပေးနိုင်ရန် နှင့် မူလတန်းကြိုကလေးများအား သင်ကြားနည်းစနစ်အမျိုးမျိုးကို
+        လက်တွေ့အသုံးချသင်ကြားနိုင်စေရန်မွမ်းမံလေ့ကျင့်ပေးနေပါတယ်ရှင်။
+        <br>
+        ဒေါ်ခင်ခင်ဌေး <br>
+        Pre-school Early Years Trainer <br>
+        B.A(History) <br>
+        Certificate In Early Childhood Care and Development (ECCD) <br>
+        Certificate in Early Years Teaching Programme, Bell English (UK) <br>
+      </p>
+      </div>
+
+</div>
+ </div>
+  <div class="row gx-0 shadow">
+    <div class="col-3">
+      <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
+        <img src="" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
+
+      </div>
+    </div>
+  <div class="col-9">
+      <div   style="margin: 50px;">
+        <h2 style="color:#F3cd5d;text-align:left;">Pre School-Coordinator
+        </h2>
+      <p style="text-align:start;line-height: 30px;">
+        ကျွန်မကတော့ ရွှေမော်ကွန်းကိုယ်ပိုင်မူလတန်းကြိုကျောင်းတွင် ရုံးပိုင်းဆိုင်ရာလုပ်ငန်းတာဝန်များကို စနစ်တကျဖြစ်အောင် စီစဉ်ပေးခြင်း၊ ကျောင်းသား/သူအသစ်များအတွက်
+        အသက်အရွယ်အလိုက် ဖွံ့ဖြိုးတိုးတက်မှုနှင့်ကိုက်ညီသော အတန်းများကို စီစစ်၍ခွဲခြားပေးခြင်း၊ သင်ကြားရေးပိုင်းနှင့်ပတ်သက်သည့်စာအုပ်များ၊ စာရွက်စာတမ်းများကို ပိုမိုကောင်းမွန်မှုရှိအောင်
+        စီစဉ်ပေးခြင်း၊ ကျောင်းစည်းကမ်းနှင့်ပတ်သက်သည့် အကြောင်းအရာများ၊ ကြေညာချက်များကို မိဘများထံသို့ အချိန်နှင့်တစ်ပြေးညီ ရောက်ရှိအောင် ကြီးကြပ်ဆောင်ရွက်ပေးနေပါတယ်။
+        <br>
+        ဒေါ်အေးသီရိခိုင် <br>
+        B.A (English) <br>
+        Certificate in Early Years Teaching Programme, Bell English (UK) <br>
+      </p>
+      </div>
+
+</div>
+ </div>
+  <div class="row gx-0 shadow">
+    <div class="col-3">
+      <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
+        <img src="" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
+
+      </div>
+    </div>
+  <div class="col-9">
+      <div   style="margin: 50px;">
+        <h2 style="color:#F3cd5d;text-align:left;">Senior English Teacher Message
+        </h2>
+      <p style="text-align:start;line-height: 30px;">
+        ကျွန်မသည် ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းတွင် English သင်ကြားနေသော Senior ဆရာမ တစ်ဦးဖြစ်ပါတယ်။ English တွင် English Language နှင့်
+        Literacy နှစ်ပိုင်းရှိသည့်အနက် ကျွန်မသည် Literacy အပိုင်းမှ Writing အပိုင်းကို တာဝန်ယူ သင်ကြားပေးနေပါသည်။
+        ကျွန်မအနေနှင့် ရွှေမော်ကွန်းကိုယ်ပိုင်အလယ်တန်းကျောင်းတွင် General Writing ရေးသားနည်း နှင့် Academic Writing ရေးသားနည်း ကို အဓိအားပြုသင်ကြားနေပါသည်။
+        ထို့အပြင် သင်ကြားသင်ယူမှုဖြစ်စဉ် နှင့် ပတ်သက်နေသော အခြားသောလုပ်ငန်းဆောင်တာများလည်း တာဝန်ယူထားပါတယ်ရှင့်။
+        <br>
+        ဒေါ်မေသဇင်ဖူး <br>
+        M. A (English) <br>
+        Diploma in TESOL (LTTC, UK) <br>
+        Certificate in Applied ECCD (Brighter Future) <br>
+        Certificate in Online Learning Management (SIS ELT INSTITUTE)
+      </p>
+      </div>
+
+</div>
+ </div>
+  <div class="row gx-0 shadow">
+    <div class="col-3">
+      <div style=" border:1px;border-style:  solid; width:250px;max-height: 250px; border-radius: 50px; margin: 50px;overflow: hidden; ">
+        <img src="" style=" width:250px;max-height: 250px; object-fit: cover;" alt="">
+
+      </div>
+    </div>
+  <div class="col-9">
+      <div   style="margin: 50px;">
+        <h2 style="color:#F3cd5d;text-align:left;">Senior Computing Teacher Message</h2>
+      <p style="text-align:start;line-height: 30px;">
+        ကျွန်မကတော့ လက်ရှိ ရွှေမော်ကွန်းကိုယ်ပိုင်ကျောင်းမှာ အလယ်တန်းကလေးတွေကို Computing ဘာသာရပ်ကိုသင်ကြားပေးနေတဲ့ ဒေါ်နန်းအေးဗိုလ်ခမ်းပဲဖြစ်ပါတယ်။ ကျွန်မကတော့ James Cook University, Australia (Singapore Campus) တွင် Bachelor of Information Technology ဘွဲ ့ကို
+        ထူးချွန်စွာပြီးမြောက်အောင်မြင်ခဲ့ပါတယ်။ <br>
+        2017-18 အတွင်း JCUS Foundation Program ကျောင်းသူ/ကျောင်းသာများအတွက် Maths / Statistics ကို campus အတွင်း Peer Tutor အဖြစ် သင်ကြားကူညီခဲ့ပါတယ်။
+        တစ်ဖက်တွင်လည်း IT ဘာသာရပ်ပေါင်း 24 ဘာသာကို လက်တွေ့ စာတွေ့ သင်ယူရင်း project ပေါင်း မြောက်များစွာကို ပြုလုပ်ပြီး MDP project အတွက် The Best Creative Video Award ကို ရရှိခဲ့ပါတယ်။
+        <br>
+        ဒေါ်နန်းအေးဗိုလ်ခမ်း <br>
+        Bachelor of Information Technology <br>
+        James Cook University, Australia (Singapore Campus) <br>
+        B.A (English)
+      </p>
+      </div>
+
+</div>
  </div>
 </section>
 
@@ -480,7 +822,7 @@ export default {
         
 
         return {
-
+          font_type: localStorage.getItem('font_type'),
         }
     },
   

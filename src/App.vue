@@ -28,7 +28,7 @@
                <select name="" class="form-control rounded-pill text-center" v-model="font_type" @change="font_change" style="border-color: purple;" id="">
                 <option value="1" style="background-image: url('./assets/img/myanmarflag.png');  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; " >English Language      </option>
+  background-position: center;">English Language</option>
                 <option value="2">Myanmar Language</option>
                </select>
                <h5 class="mt-2">

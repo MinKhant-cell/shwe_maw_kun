@@ -17,7 +17,8 @@
      border-style: solid;
      border-radius: 20px;">
                             <img src="../assets/img/facebook.png" alt="" style="height:50px;">
-                            <h5 class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                            <h5 v-if="font_type == 1" class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                            <h5 v-if="font_type == 2" class="ms-4 align-self-center">ရွှေမော်ကွန်း</h5>
                         </div>
                     </div>
                     
@@ -26,7 +27,9 @@
      border-style: solid;
      border-radius: 20px;">
                             <img src="../assets/img/insta.png" alt="" style="height:50px;">
-                            <h5 class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                            <h5 v-if="font_type == 1" class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                          <h5 v-if="font_type == 2" class="ms-4 align-self-center">ရွှေမော်ကွန်း</h5>
+
                         </div>
                     </div>
 
@@ -35,7 +38,9 @@
      border-style: solid;
      border-radius: 20px;">
                             <img src="../assets/img/youtube.png" alt="" style="height:50px;">
-                            <h5 class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                            <h5 v-if="font_type == 1" class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                          <h5 v-if="font_type == 2" class="ms-4 align-self-center">ရွှေမော်ကွန်း</h5>
+
                         </div>
                     </div>
 
@@ -44,7 +49,9 @@
      border-style: solid;
      border-radius: 20px;">
                             <img src="../assets/img/teleg.png" alt="" style="height:50px;">
-                            <h5 class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                            <h5 v-if="font_type == 1" class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                          <h5 v-if="font_type == 2" class="ms-4 align-self-center">ရွှေမော်ကွန်း</h5>
+
                         </div>
                     </div>
 
@@ -53,7 +60,9 @@
      border-style: solid;
      border-radius: 20px;">
                             <img src="../assets/img/viber.png" alt="" style="height:50px;">
-                            <h5 class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                            <h5 v-if="font_type == 1" class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                          <h5 v-if="font_type == 2" class="ms-4 align-self-center">ရွှေမော်ကွန်း</h5>
+
                         </div>
                     </div>
 
@@ -62,7 +71,9 @@
      border-style: solid;
      border-radius: 20px;">
                             <img src="../assets/img/linkin.png" alt="" style="height:50px;">
-                            <h5 class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                            <h5 v-if="font_type == 1" class="ms-4 align-self-center">SHWE MAW KUN</h5>
+                          <h5 v-if="font_type == 2" class="ms-4 align-self-center">ရွှေမော်ကွန်း</h5>
+
                         </div>
                     </div>
                     
@@ -88,13 +99,14 @@
 <div class="row d-flex justify-content-center ">
                 <div class="col-6">
                     <div class="container">
-                        <h1 class="text-start" style="color:goldenrod"><b>ENQUIRE NOW</b></h1>
+                        <h1 v-if="font_type == 1" class="text-start" style="color:goldenrod"><b>ENQUIRE NOW</b></h1>
+                        <h3 v-if="font_type == 2" class="text-start mb-3" style="color:goldenrod"><b>ကျောင်းကိစ္စ စုံစမ်းရန်</b></h3>
 
-                        <input type="text" v-model="name" required class="contact_us_input form-control"  name="name" id="name" placeholder=" Name" >
-                        <input type="text" class="contact_us_input form-control"  required v-model="phone" name="phone" id="phone" placeholder="Mobile">
-                        <input type="text"  class="contact_us_input form-control"  required name="email" v-model="email" id="email" placeholder="Email">
-                        <input type="text" v-model="subject" required  class="contact_us_input form-control" name="subject" id="subject" placeholder="Subject" >
-                        <textarea name="content" class="contact_us_input form-control"  required  id="content" v-model="content" cols="30" rows="10" placeholder="Message"></textarea>
+                        <input type="text" v-model="name" required class="contact_us_input form-control"  name="name" id="name" :placeholder="font_type == 1 ? 'Name': 'အမည်'">
+                        <input type="text" class="contact_us_input form-control"  required v-model="phone" name="phone" id="phone" :placeholder="font_type == 1 ? 'Mobile': 'ဖုန်းနံပတ်'">
+                        <input type="text"  class="contact_us_input form-control"  required name="email" v-model="email" id="email" :placeholder="font_type == 1 ? 'Email': 'အီးမေးလိပ်စာ'">
+                        <input type="text" v-model="subject" required  class="contact_us_input form-control" name="subject" id="subject" :placeholder="font_type == 1 ? 'Subject': 'အကြောင်းအရာ'" >
+                        <textarea name="content" class="contact_us_input form-control"  required  id="content" v-model="content" cols="30" rows="10" :placeholder="font_type == 1 ? 'Message': 'မှတ်ချက်'"></textarea>
                   
 
 
@@ -144,7 +156,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="bg-warning p-5 text-start">
+                    <div v-if="font_type == 1" class="bg-warning p-5 text-start">
                         <h3><b>TELEPHONE</b></h3>
                        <h5>09-252 447066</h5>
                        <h5>
@@ -165,6 +177,26 @@
                         <h3><b>SCHOOL ADDRESS</b></h3>
                         <p>
                             No. 20/10,Shwe Chi Street, (Corner of Yae Htwet Oo Street), Yae Aye Kwin Quarter, Taunggyi, Shan State, Myanmar
+                        </p>
+                    </div>
+                  <div v-if="font_type == 2" class="bg-warning p-5 text-start">
+                        <h4><b>ဖုန်းနံပတ်</b></h4>
+                       <p> ၀၉-၂၅၂၄၄၇၀၆၆</p>
+                       <p>၀၉-၄၂၈၃၇၇၇၆၆</p>
+                        <br>
+                        <br>
+                        <h3><b>EMAIL</b></h3>
+                        <h5>
+                            shwemawkun@gmail.com
+                        </h5>
+                        <br><br>
+                        <h4><b>ရုံးဖွင့်ချိန်</b></h4>
+                        <p>တနင်္လာနေ့ မှ သောကြာနေ့ ထိ:(နံနက် ၉ နာရီမှ ညနေ ၄နာရီထိ)</p>
+                        <br><br>
+
+                        <h4><b>ကျောင်းလိပ်စာ</b></h4>
+                        <p>
+                          အမှတ်(၂၀/၁၀)၊ရွှေချည်လမ်း နှင့် ရေထွက်ဦး လမ်းထောင့်၊ ရေအေးကွင်းရပ်၊ တောင်ကြီးမြို့။
                         </p>
                     </div>
                 </div>
@@ -257,6 +289,7 @@ export default {
         
 
         return {
+          font_type: localStorage.getItem('font_type'),
             link:'http://smkbackend.kwintechnologykw11.com',
             name:'',
             email:'',
