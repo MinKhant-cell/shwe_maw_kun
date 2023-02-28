@@ -203,40 +203,39 @@
 
             </div>
 
-            <h1 class="text-start mt-4 mb-4" style="color:purple"> <b>OUR ENLARGE MAP</b>  </h1>
+            <h1 class="text-start mt-4 mb-4" style="color:purple"> <b>{{font_type == 1 ? 'OUR ENLARGE MAP': 'အချက်အလက်ပြဇယား'}}  </b>  </h1>
             <div class="row d-flex justify-content-center gx-0">
-                <div class="col p-5  border  shadow-lg   d-flex justify-content-center " style=" background-color: purple;color:white;  min-width:400px;max-width: 500px;height: 750px;">
+                <div class="col py-5 px-4  border  shadow-lg   d-flex justify-content-center " style=" background-color: purple;color:white;  min-width:400px;max-width: 500px;height: 750px;">
                     <div class="    "  style=" padding:50px;  text-align: left; ">
-                        <h3>FIND US IN</h3>
-                        <p>Taunggyi, Southern Shan State,
-                            Myanmar
+                      <h3> {{ font_type == 1 ? 'FIND US IN' : 'တည်နေရာ'}}</h3>
+
+
+                        <p>
+                          {{ font_type == 1 ? 'Taunggyi, Southern Shan State,Myanmar' : 'မြန်မာနိုင်ငံ၏ ရှမ်းပြည်နယ်တောင်ပိုင်း ၊ တောင်ကြီးမြို့။ '}}
+
                         </p>
                         <br>
-                        <h3>OPERATIONAL HOURS</h3>
-                        <p>9:00am-4:00pm</p>
+
+                        <h3>  {{ font_type == 1 ? 'OPERATIONAL HOURS' : 'ရုံးဖွင့်ချိန်'}}</h3>
+                        <p>{{ font_type == 1 ? '9:00am-4:00pm' : 'နံနက် ၉ နာရီမှ ညနေ ၄နာရီထိ'}}  </p>
                         <br>
-                        <h3>OUR LOCATION</h3>
+                        <h3> {{ font_type == 1 ? 'OUR LOCATION' : 'ကျောင်းတည်နေရာများ'}} </h3>
                         <br>
                         <p>
-                        <b>Pre-school</b>
-                        No. 35/9, Ngwe Kyal Phyu Street,Yae Aye
-                        Kwin Ward, Taunggyi
+                        <b>{{ font_type == 1 ? 'Pre-school' : 'ရွှေမော်ကွန်းအဆင့်မြင့်မူလတန်းကြိုကျောင်း'}}</b>
+                          {{ font_type == 1 ? ' No. 35/9, Ngwe Kyal Phyu Street,Yae Aye Kwin Ward, Taunggyi' : 'အမှတ်(၃၅/၉)၊ငွေကြယ်ဖြူလမ်း၊ ရေအေးကွင်းရပ်၊ တောင်ကြီးမြို့။'}}
                         </p>
                         <br>
                         <p>
-                            <b>Primary school</b>
-                        No. 20/10 Shwe Chi Street (Corner of Ye
-                        Htwet Oo Street), Yae Aye Kwin Ward,
-                         Taung-gyi
+                            <b> {{ font_type == 1 ? 'Primary school' : 'ရွှေမော်ကွန်း ကိုယ်ပိုင်မူလတန်းကျောင်း'}}</b>
+                          {{ font_type == 1 ? ' No. 20/10 Shwe Chi Street (Corner of Ye Htwet Oo Street), Yae Aye Kwin Ward,Taung-gyi' : ' အမှတ်(၂၀/၁၀)၊ရွှေချည်လမ်း နှင့် ရေထွက်ဦး လမ်းထောင့်၊ ရေအေးကွင်းရပ်၊ တောင်ကြီးမြို့။'}}
+
 
                         </p>
                         <br>
                         <p>
-                            <b>Secondary school</b>
-
-                            No.65/10, Nay Chi Street, Yae Aye Kwin
-                            Ward, Taunggyi
-
+                            <b>{{ font_type == 1 ? 'Secondary school' : 'ရွှေမော်ကွန်း ကိုယ်ပိုင်အလယ်တန်းကျောင်း'}}  </b>
+                          {{ font_type == 1 ? ' No.65/10, Nay Chi Street, Yae Aye Kwin Ward, Taunggyi' : ' အမှတ်(၆၅/၁၀)၊နေခြည်လမ်း၊ ရေအေးကွင်းရပ်၊ တောင်ကြီးမြို့။'}}
                         </p>
                     </div>
 

@@ -554,9 +554,9 @@
             <div class="col-sm-4 bd_footer">
               <i class="bi bi-geo-alt icon"></i>
               <div style="padding-left: 65px;">
-                <h1 class="text-uppercase text-start" style="font-size:25px;font-weight:900">Contact Us</h1>
-                <p class="mb-1 fw-normal text-start">09 123 456 789</p>
-                <p class="mb-1 fw-normal text-start">09 987 343 565</p>
+                <h1 class="text-uppercase text-start" style="font-size:25px;font-weight:900">{{font_type == 1 ? "Contact Us" : "ဆက်သွယ်ရန်ဖုန်းနံပတ်များ"}}</h1>
+                <p class="mb-1 fw-normal text-start">{{font_type == 1 ? "09 123 456 789" : "၀၉ ၁၂၃ ၄၅၆ ၇၈၉"}}</p>
+                <p class="mb-1 fw-normal text-start">{{font_type == 1 ? "09 987 343 565" : "၀၉ ၉၈၇ ၃၄၃ ၅၆၅"}}</p>
 
               </div>
             </div>
@@ -565,10 +565,11 @@
            
               <div class="d-flex justify-content-center social-links footer_cent">
                 <div style="padding-right: 65px;">
-                  <h1 class="text-uppercase text-end" style="font-size:25px;font-weight:900;">Address</h1>
+                  <h1 class="text-uppercase text-end" style="font-size:25px;font-weight:900;">{{font_type == 1 ? "Address" : "ဆက်သွယ်ရန်လိပ်စာ"}}</h1>
                   <p class="mb-1 fw-normal text-start">
-                    No. 20/10,Shwe Chi Street, (Corner of Yae Htwet Oo Street),
-                    Yae Aye Kwin Quarter, Taunggyi, Shan State, Myanmar
+
+                    {{ font_type == 1 ? 'No. 20/10,Shwe Chi Street, (Corner of Yae Htwet Oo Street),Yae Aye Kwin Quarter, Taunggyi, Shan State, Myanmar' : ' အမှတ်(၂၀/၁၀)၊ရွှေချည်လမ်း နှင့် ရေထွက်ဦး လမ်းထောင့်၊ ရေအေးကွင်းရပ်၊ တောင်ကြီးမြို့။'}}
+
                     <br />
 
                   </p>

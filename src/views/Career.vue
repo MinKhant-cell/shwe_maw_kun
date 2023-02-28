@@ -3,13 +3,13 @@
         <div class="container">
             <!-- <form action="" > -->
                 <form @submit.prevent="">
-                <div class=" p-3 mt-4">
+                <div class=" p-3 mt-4 ">
           
-                    <h2 class="text-start" style="font-weight:650;font-size: 50px;color: goldenrod;">CAREER</h2>
+                    <h2 class="text-start mb-3" style="font-weight:650;font-size: 50px;color: goldenrod;">{{font_type == 1 ? 'CAREER' : 'အလုပ်အကိုင်'}}</h2>
        
                 <div class="row d-flex justify-content-start">
                     <div class="col-sm-4"> 
-                        <h2 class="text-start mb-5">Current Vancancies</h2>
+                        <h4 class="text-start mb-5">{{font_type == 1 ? 'Current Vacancies' : 'လက်ရှိလစ်လပ်နေသောနေရာများ'}}</h4>
                             
                         <div class="row d-flex justify-content-center ">
        
@@ -36,21 +36,21 @@
                    
                     </div>
                     <div class="col-sm-8"> 
-                        <h2 class="text-start mb-4">Your Information</h2>
+                        <h2 class="text-start mb-4"> {{font_type == 1 ? 'Your Information' : 'သင်၏အချက်အလက်'}}</h2>
                         <div class="row d-flex justify-content-center ">
        
        <div class="col-md-6 ">
            <div class="mb-3  ">
    <!-- <label for="exampleFormControlInput1" class="form-label">Your Name</label> -->
-   <input type="text" class="form-control text_career" id="name" v-model="name" placeholder=" Name" requried>
+   <input type="text" class="form-control text_career" id="name" v-model="name" :placeholder="font_type == 1 ? ' Name' : 'အမည်'" requried>
    </div>
    <div class="mb-3">
    <!-- <label for="exampleFormControlTextarea1" class="form-label">Your Studied</label> -->
-   <input type="text" class="form-control text_career" id="studied"  v-model="studied" placeholder="Qualification" >
+   <input type="text" class="form-control text_career" id="studied"  v-model="studied" :placeholder="font_type == 1 ? ' Qualification' : 'ပညာအရည်အချင်း'" >
    </div>
    <div class="mb-3">
    <!-- <label for="exampleFormControlTextarea1" class="form-label">Job Position</label> -->
-   <input type="text" class="form-control text_career" id="position"  v-model="position" placeholder="Position Applying for" >
+   <input type="text" class="form-control text_career" id="position"  v-model="position" :placeholder="font_type == 1 ? 'Position Applying for' : 'လျောက်ထားလိုသည့်ရာထူး'" >
    </div>
 
        </div>
@@ -65,12 +65,12 @@
 
    <div class="mb-3">
    <!-- <label for="exampleFormControlTextarea1" class="form-label">Phone</label> -->
-   <input type="text" class="form-control text_career"  v-model="phone" id="phone" placeholder="Mobile Number " requried>
+   <input type="text" class="form-control text_career"  v-model="phone" id="phone" :placeholder="font_type == 1 ? 'Mobile Number ' : 'ဖုန်းနံပတ်'" requried>
    </div>
 
    <div class="mb-3">
    <!-- <label for="exampleFormControlTextarea1" class="form-label">Email</label> -->
-   <input type="email" class="form-control text_career"  v-model="email" id="email" placeholder="Email" requried>
+   <input type="email" class="form-control text_career"  v-model="email" id="email" :placeholder="font_type == 1 ? 'Email' : 'အီးမေးလိပ်စာ'" requried>
    </div>
 
 
@@ -89,30 +89,30 @@
          <div class="mb-3">
             {{estatus}}
             <div style="text-align:left;margin:30px;padding:20px;width:100%;border:1px black;border-style: solid;" class="shadow ">
-                <label for="exampleFormControlTextarea1" class="form-label">What is your current employment status ?</label>
+                <label for="exampleFormControlTextarea1" class="form-label">{{font_type == 1 ? 'What is your current employment status?' : 'ယခုလက်ရှိအလုပ်အကိုင်'}}</label>
        <div>
         <div class="form-check form-check-inline">
   <input class="form-check-input" v-model="estatus" value="None" type="radio" name="exampleRadios" id="exampleRadios1" >
   <label class="form-check-label" for="exampleRadios1">
-    None
+   {{font_type == 1 ? ' None' : 'မရှိ'}}
   </label>
 </div>
 <div class="form-check form-check-inline">
   <input class="form-check-input"  v-model="estatus" value="Student" type="radio" name="exampleRadios" id="exampleRadios1" >
   <label class="form-check-label" for="exampleRadios1">
-    Student
+     {{font_type == 1 ? 'Student' : 'ကျောင်းသား/သူ'}}
   </label>
 </div>
 <div class="form-check form-check-inline">
   <input class="form-check-input" v-model="estatus" value="Self-Employed" type="radio" name="exampleRadios" id="exampleRadios1" >
   <label class="form-check-label" for="exampleRadios1">
-    Self-Employed
+    {{font_type == 1 ? 'Self-Employed' : 'ကိုယ်ပိုင်အလုပ်'}}
   </label>
 </div>
 <div class="form-check form-check-inline">
   <input class="form-check-input"  v-model="estatus" value="Employed" type="radio" name="exampleRadios" id="exampleRadios1" >
   <label class="form-check-label" for="exampleRadios1">
-    Employed
+    {{font_type == 1 ? 'Employed' : 'ဝန်ထမ်း'}}
   </label>
 </div>
        </div>
@@ -126,12 +126,12 @@
          
    <div class="mb-3">
    <!-- <label for="exampleFormControlTextarea1" class="form-label">Reason to Submit</label> -->
-   <textarea class="form-control text_career2" v-model="about" style="resize: none;" id="about" rows="3" requried placeholder="Reason for Applying" ></textarea>
+   <textarea class="form-control text_career2" v-model="about" style="resize: none;" id="about" rows="3" requried :placeholder="font_type == 1 ? 'Reason for Applying' : 'လျောက်ထားလိုသည့်အကြောင်းအရင်း'" ></textarea>
    </div>
    <div class="mb-3">
        <button class="btn btn-warning " type="submit" @click="submit()">
          <div class="spinner-border" role="status" v-if="isloading==true">
-</div> Submit </button>
+</div> {{font_type == 1 ? 'Submit ' : 'တင်သွင်းပါ'}} </button>
      </div>
 </div>
 </div>
@@ -160,6 +160,7 @@ export default {
 
         return {
             estatus:'',
+          font_type: localStorage.getItem('font_type'),
             link:'http://smkbackend.kwintechnologykw11.com',
             file:'',
             name:'',
